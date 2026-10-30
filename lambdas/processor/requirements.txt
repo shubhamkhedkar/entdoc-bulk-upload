@@ -1,0 +1,4 @@
+# boto3 is provided by the Lambda runtime and intentionally not bundled.
+pikepdf>=9.0,<10
+pypdf>=5.0,<7
+Pillow>=10.4

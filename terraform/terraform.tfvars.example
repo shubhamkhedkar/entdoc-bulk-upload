@@ -1,0 +1,5 @@
+# cp terraform.tfvars.example terraform.tfvars  (terraform.tfvars is git-ignored)
+aws_region            = "ap-south-1"
+alert_email           = "you@example.com" # confirm the SNS subscription email after apply
+max_file_size_mb      = 50
+force_destroy_buckets = true # set false to protect buckets from `terraform destroy`
